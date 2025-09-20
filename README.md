@@ -1,1 +1,1 @@
-# -NodoDiplo-M3-S1-P2
+# NodoDiplo-M3-S1-P2
