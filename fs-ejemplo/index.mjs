@@ -12,7 +12,7 @@ fs.writeFile('./data/newfile.txt', 'Contenido nuevo', (err) => {
     console.log('Archivo creado y escrito'); 
 });
 
-// Renombrar un archivo 
+// Renombrar un archivo // Problema: Intentar renombrar un archivo que podria no existir.
 fs.rename('./data/newfile.txt', './data/renamedfile.txt', (err) => {
     if (err) throw err;
     console.log('Archivo renombrado');
